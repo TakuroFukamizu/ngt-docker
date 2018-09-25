@@ -7,7 +7,7 @@ If you create own docker image from this image, you can create a service work wi
 ## How to use
 
 ```sh
-$ docker run --name ngtdev -it --rm -v `pwd`:/opt/dev fkmy/ngt-docker:1.4.0 bash
+$ docker run --name ngtdev -it --rm -v `pwd`:/opt/dev fkmy/ngt-docker:latest bash
 root@8918f9ee6584:/opt/NGT# ngt
 Usage : ngt command database data
            command : create search remove append export import reconstruct-graph
