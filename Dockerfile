@@ -3,7 +3,8 @@ FROM python:3.6-stretch
 
 LABEL maintainer "Takuro Fukamizu <takuro.f.1987@gmail.com>"
 
-ARG NGT_VERSION
+# latest versions
+ARG NGT_VERSION=1.4.0
 ARG PYBIND_COMMIT=9343e68b4611926fb9bae4c01a61c83841b1a0a8
 
 # -------------------------------

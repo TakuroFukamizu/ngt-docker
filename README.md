@@ -22,5 +22,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ## Rebuild image
 
 ```sh
-$ docker build --build-arg NGT_VERSION=1.4.0 -t fkmy/ngt-docker:1.4.0 .
+$ docker build \
+    --build-arg NGT_VERSION=1.4.0 \
+    --build-arg PYBIND_COMMIT=9343e68b4611926fb9bae4c01a61c83841b1a0a8 \
+    -t fkmy/ngt-docker:1.4.0 .
 ```
